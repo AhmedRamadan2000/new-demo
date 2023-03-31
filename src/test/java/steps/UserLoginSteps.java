@@ -34,7 +34,6 @@ public class UserLoginSteps {
         loginButton.click();
         throw new io.cucumber.java.PendingException();
     }
-
     @Then("I should be redirected to the overview page")
     public void i_should_be_redirected_to_the_overview_page() {
         String currentUrl = driver.getCurrentUrl();
